@@ -13,7 +13,7 @@
 shutdown = false
 
 Signal.trap("INT") do
-  puts "Received SIGINT. Respect: #{respect}"
+  puts "Received SIGINT."
   shutdown = true
 end
 

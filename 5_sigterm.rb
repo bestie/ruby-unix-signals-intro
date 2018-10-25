@@ -14,7 +14,7 @@ shutdown = false
 
 ["INT", "TERM"].each do |name|
   Signal.trap(name) do
-    puts "Received SIGINT. Respect: #{respect}"
+    puts "Received SIGINT."
     shutdown = true
   end
 end

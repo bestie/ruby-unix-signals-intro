@@ -1,7 +1,7 @@
 
 # This is a regular Ruby script that will loop forever and do some work.
 #
-# It can be stopped with SIGNINT.
+# It can be stopped with SIGINT.
 #
 # You can send SIGINT to a Ruby script by running it in your terminal and then
 # pressing ctrl + c (hold ctrl, tap c).
